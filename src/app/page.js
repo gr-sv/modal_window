@@ -1,10 +1,14 @@
+import { useState } from 'react';
+
+import './page.css'
+
 export default function Home() {
 	return (
 		<div>
 			<h1>Modal window in React</h1>
 
-			<button>Open modal window</button>
-			
+			<button className='open-btn'>Open modal window</button>
+
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
 			ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
 			laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
